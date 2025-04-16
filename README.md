@@ -1,15 +1,15 @@
 
-# Sentiment Analysis of YouTube Comments on Political Music Performances
+# Sentiment Analysis on YouTube Comments
 
-This project explores sentiment in YouTube comments related to politically and socially conscious music performances by Beyoncé and Kendrick Lamar. The goal is to analyze public reactions to themes around the Black cultural perspectives and assess how online discourse is shaped by race, politics, and performance.
+This project showcases a sentiment analysis model applied to YouTube comments from music performances, particularly focusing on how language identification and sentiment models may fail to accurately analyze diverse dialects and expressions in online comments. The goal is to understand how models handle different types of speech patterns, sentiments, and biases when analyzing user-generated content.
 
 ## Overview
 
 The project uses comments from the following performances:
-- **Beyoncé at Coachella (2018)**
-- **Kendrick Lamar at the Grammys (2016)**
+- **Beyoncé & Bruno Mars Crash the Super Bowl 50 Halftime Show (2016)**
+- **Kendrick Lamar’s Apple Music Super Bowl Halftime Show (2025)**
 
-The analysis is built on sentiment classification using logistic regression and BERT-based models. It also includes targeted data cleaning for emojis, slang, and noise in user-generated content.
+The analysis is built on sentiment classification using logistic regression and transformer-based models. It also includes targeted data cleaning for emojis, slang, and noise in user-generated content.
 
 ## Objectives
 
@@ -24,18 +24,15 @@ The analysis is built on sentiment classification using logistic regression and 
 - Data includes usernames, timestamps, like counts, and raw text.
 
 ### 2. Preprocessing
-- Removal of stopwords, special characters, URLs.
 - Handling of emojis via translation to text using the `emoji` Python package.
-- Spelling correction and lowercasing.
 - Manual and semi-automated labeling of a subset of comments (Positive, Negative, Neutral).
 
 ### 3. Modeling
 - **Logistic Regression** for baseline.
-- **BERT-based transformer model** (via HuggingFace) for improved performance and nuance.
-- Evaluation using accuracy, F1-score, precision, and recall.
+- **Transformer-based transformer model** (via HuggingFace) for improved performance and nuance.
 
 ### 4. Bias Mitigation
-- Analysis of model errors on race-related content.
+- Analysis of model errors on dialectial-heavy comments.
 - Adjustments using re-weighting of training samples and subgroup evaluation.
 
 ## Technologies Used
@@ -44,14 +41,12 @@ The analysis is built on sentiment classification using logistic regression and 
 - YouTube Data API
 - Jupyter Notebook / Google Colab
 - HuggingFace Transformers
-- NLTK / SpaCy / Emoji
+- NLTK / Emoji
 
 ## Results Summary
 
-- BERT achieved an F1-score of 0.81 vs 0.69 for logistic regression.
-- Comments on Beyoncé’s performance showed higher rates of polarization.
 - Emojis were significant sentiment cues (e.g., 💯, 😢, 👏).
-- Initial bias detection found false positives labeling neutral or supportive comments as negative when referencing Black identity — reduced after mitigation.
+- Initial bias detection found false positives labeling neutral or supportive comments as negative when using dialectal language.
 
 ## Potential Applications
 
@@ -61,14 +56,13 @@ The analysis is built on sentiment classification using logistic regression and 
 
 ## Next Steps
 
-- Expand dataset to more performances (e.g., Childish Gambino’s “This Is America”).
-- Integrate named entity recognition (NER) for deeper content parsing.
-- Train a custom sentiment classifier on culturally diverse datasets.
+- Use more human-annotators for sentiment review and human-in-the-loop sessions.
+- Train a custom sentiment and language identification classifier on culturally diverse datasets.
 
 ## Author
 
-[Your Name]
+Malachi Randolph
 
 ---
 
-For academic inquiries or collaboration: [your.email@example.com]
+For academic inquiries or collaboration: malirandolph@yahoo.com
