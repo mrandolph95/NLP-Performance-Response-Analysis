@@ -59,8 +59,7 @@ This research emphasizes the need for dialectally diverse datasets and culturall
 ## Author
 
 Malachi Randolph  
-[Your email or contact info]  
-[Link to your portfolio or LinkedIn]
+malirandolph@yahoo.com
 
 ## License
 
