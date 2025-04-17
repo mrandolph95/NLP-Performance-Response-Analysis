@@ -52,9 +52,6 @@ _Notebooks and sample data coming soon._
 ## Author
 
 Malachi Randolph  
-[Your email or contact info]  
-[Link to your portfolio or LinkedIn]
+malirandolph@yahoo.com
 
-## License
 
-This project is licensed under the MIT License.
