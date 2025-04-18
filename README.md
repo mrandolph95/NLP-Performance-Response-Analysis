@@ -30,6 +30,7 @@ Modern NLP tools often mislabel or misinterpret internet language that blends cu
 - `pipeline.png`: Visual diagram of the project workflow
 - `language_missclassification_examples.pdf`: Sample errors from language detection models
 - `sentiment_missclassification_examples.pdf`: Sample errors from sentiment classification
+- `poster.pdf`: Research poster
 
 ## Methodology
 
