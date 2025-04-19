@@ -62,8 +62,7 @@ This research emphasizes the need for dialectally diverse datasets and culturall
 Malachi Randolph  
 malirandolph@yahoo.com
 
-View my blog post here: [https://goldenhourrecipes.org/golden-hour-recipes/why-sentiment-models-misread-internet-language-and-what-we-can-do-about-it](Why Sentiment Models Misread Internet Language and What Can We Do About It)
-
+View my blog post here: [What Sentiment Models Get Wrong and What Can We Do About It?](https://goldenhourrecipes.org/golden-hour-recipes/why-sentiment-models-misread-internet-language-and-what-we-can-do-about-it)
 ## License
 
 This project is licensed under the MIT License.
