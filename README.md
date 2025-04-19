@@ -50,7 +50,7 @@ Modern NLP tools often mislabel or misinterpret internet language that blends cu
 ## Key Findings
 
 - Language detectors often misclassified internet language as non-English, particularly short, emoji-heavy phrases.
-- Sentiment models frequently misread slang and emojis, e.g., interpreting “she ate” or “💀” as negative.
+- Sentiment models frequently misread slang and emojis, e.g., interpreting “she killed it!” or “💀” as negative.
 - Active learning improved classifier performance by focusing manual effort on ambiguous comments.
 
 ## Responsible AI & Cultural Awareness
